@@ -1,19 +1,13 @@
-# Meu primeiro projeto Python :D
+# comando input(): quero permitir que o usuário digite algo
+nome = input("Digite o seu nome: ")
 
-# print() = comando de saída
-print("Hello, world!")
+# comando de saída = exibir na tela
+print(f"Seja bem vindo(a) {nome}!")
 
-# Guardar String
-nome = "Luana Belo"
-# Guardar int
-idade = 18
+# teste
+idade = int(input ("Qual a sua idade? "))
+print(f"{nome} tem {idade} anos")
 
-# Exibir o conteúdo da variável
-print(nome)
-
-# Exibir uma frase com a variável
-print("Meu nome é "+nome+" e tenho "+str(idade)+" anos.")
-# Modo alternativo para o mesmo resultado
-print(f"Meu nome é {nome} e tenho {idade} anos.")
-# Modo alternativo para o mesmo resultado
-print("Meu nome é {} e tenho {} anos". format(nome,idade))
+# e se eu quiser mostrar o dobro da idade informada
+dobro = idade * 2
+print(f"O dobro da idade de {nome} é {dobro}")
